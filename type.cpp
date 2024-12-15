@@ -1,6 +1,6 @@
 #include <iostream>
 
-void bakePizza();
+void pizzabake();
 void bakePizza(std::string topping1);
 void bakePizza(std::string topping1, std::string topping2);
 
@@ -13,7 +13,7 @@ int main()
     return 0;
 }
 
-void bakePizza()
+void pizzabake()
 {
     std::cout << "Here is your pizza!\n";
 }
